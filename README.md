@@ -1,1 +1,1 @@
-# crbox
+# CrBox - Sandbox gamemode for s&box
