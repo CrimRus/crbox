@@ -1,0 +1,9 @@
+importfilelist
+{
+	"file"	"handlemini_is_unused.vmt"
+	"file"	"cgun1_is_unused.vmt"
+	"file"	"cgun2_is_unused.vmt"
+	"file"	"chain_is_unused.vmt"
+	"file"	"bighandle_is_unused.vmt"
+	"file"	"chainbody_is_unused.vmt"
+}
