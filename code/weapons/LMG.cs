@@ -1,19 +1,19 @@
 using Sandbox;
 
-[Library( "weapon_lmg", Title = "LMG", Spawnable = true )]
+[Library( "weapon_lmg", Title = "Tommy gun", Spawnable = true )]
 partial class LMG : Weapon
 {
-	public override string ViewModelPath => "weapons/rust_pistol/v_rust_pistol.vmdl";
+	public override string ViewModelPath => "./models/tommy/v_smg_tom.vmdl";
 
 	public override float PrimaryRate => 5.0f;
 	public override float SecondaryRate => 1.0f;
-	public override float ReloadTime => 5.0f;
+	public override float ReloadTime => 2.0f;
 
 	public override void Spawn()
 	{
 		base.Spawn();
 
-		SetModel( "weapons/rust_pistol/rust_pistol.vmdl" );
+		SetModel( "./models/tommy/w_smg_tom.vmdl" );
 	}
 
 	public override void AttackPrimary()
@@ -57,10 +57,10 @@ partial class LMG : Weapon
 		CrosshairPanel?.CreateEvent( "fire" );
 	}
 
-	// public override void SimulateAnimator( PawnAnimator anim )
-	// {
-	// 	anim.SetParam( "holdtype", 2 ); // TODO this is shit
-	// 	anim.SetParam( "aimat_weight", 1.0f );
-	// }
+	 public override void SimulateAnimator( PawnAnimator anim )
+	{
+		anim.SetParam( "holdtype", 3 ); // TODO this is shit
+		anim.SetParam( "aimat_weight", 1.0f );
+	}
 
 }

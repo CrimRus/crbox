@@ -1,0 +1,6 @@
+importfilelist
+{
+	"file"	"sights512_is_unused.vmt"
+	"file"	"stuff1024_is_unused.vmt"
+	"file"	"main1024_is_unused.vmt"
+}
