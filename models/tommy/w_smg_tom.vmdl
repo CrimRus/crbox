@@ -121,8 +121,8 @@
 						surface_prop = "default"
 						collision_prop = "default"
 						radius = 1.356037
-						point0 = [ 1.064728, 8.984686, 51.008556 ]
-						point1 = [ 0.119141, 9.316532, 8.317039 ]
+						point0 = [ 35.36488, 0.619309, 5.188783 ]
+						point1 = [ -6.799438, 0.763143, 5.36701 ]
 					},
 					{
 						_class = "PhysicsShapeCapsule"
@@ -130,8 +130,8 @@
 						surface_prop = "default"
 						collision_prop = "default"
 						radius = 2.763531
-						point0 = [ 1.313789, 2.092163, -5.994953 ]
-						point1 = [ 1.016498, 5.065319, 8.80117 ]
+						point0 = [ -21.992012, 1.271363, -4.348589 ]
+						point1 = [ -3.390236, 0.552946, 4.804376 ]
 					},
 					{
 						_class = "PhysicsShapeCylinder"
@@ -139,8 +139,8 @@
 						surface_prop = "default"
 						collision_prop = "default"
 						radius = 6.084553
-						point0 = [ 0.642555, 2.863591, 34.253078 ]
-						point1 = [ 0.994751, 3.180519, 33.089294 ]
+						point0 = [ 17.531357, 1.198149, -0.510345 ]
+						point1 = [ 21.110777, 1.184471, -0.226594 ]
 					},
 				]
 			},
@@ -200,7 +200,7 @@
 						filename = "models/tommy/w_smg_tom_refs/mesh/w_smg_tom_bg_studio_lod0.dmx"
 						import_translation = [ -7.0, 2.0, 0.0 ]
 						import_rotation = [ -90.0, 90.0, 0.0 ]
-						import_scale = 2.0
+						import_scale = 1.4
 						align_origin_x_type = "None"
 						align_origin_y_type = "None"
 						align_origin_z_type = "None"

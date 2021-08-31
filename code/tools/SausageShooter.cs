@@ -29,9 +29,9 @@
 				Position = Owner.EyePos + Owner.EyeRot.Forward * 80,
 				Rotation = Owner.EyeRot 
 			};
-			// ent.SetModel( "models/citizen_props/hotdog01/hotdog01_lod02.vmdl" );
+			ent.SetModel( "models/citizen_props/hotdog01/hotdog01_lod02.vmdl" );
 			
-			ent.SetModel( "models/errorr/error.vmdl" );
+			// ent.SetModel( "models/errorr/error.vmdl" );
 			ent.Velocity = Owner.EyeRot.Forward * 1000;
 		}
 	}

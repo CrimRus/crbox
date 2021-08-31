@@ -1,0 +1,8 @@
+importfilelist
+{
+	"file"	"v_hands_is_unused.vmt"
+	"file"	"main_is_unused.vmt"
+	"file"	"grip_is_unused.vmt"
+	"file"	"bullet_is_unused.vmt"
+	"file"	"slide_is_unused.vmt"
+}
