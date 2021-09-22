@@ -40,7 +40,7 @@ partial class Shotgun : Weapon
 		TimeSinceSecondaryAttack = -0.5f;
 
 		(Owner as AnimEntity)?.SetAnimBool( "b_attack", true );
-
+		Log.Info("test");
 		//
 		// Tell the clients to play the shoot effects
 		//
